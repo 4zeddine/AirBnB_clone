@@ -22,27 +22,33 @@ section.filters button{
 section.filters button:hover {
     opacity: 0.9;
 }
-.locations, .amenities{
+.locations{
     text-align: left;
     height: 100%;
     width: 25%;
-    margin-left: 30px;
+    border-right:solid 1px #DDDDDD;
     float: left;
 }
-.locations{
-    border-right: solid 1px #DDDDDD;
+.amenities{
+    text-align: left;
+    height: 100%;
+    width: 25%;
+    float:left;
+    align-content:flex-start;
 }
 h3{
     font-weight: 600;
     margin: 0px;
     margin-top: 17px;
     padding: 0px;
+    padding-left:30px;
 }
 h4{
     margin: 0px;
     padding: 0px;
     font-weight: 400;
     font-size: 14px;
+    padding-left:30px;
 }
 .popover{
 	visibility:hidden;
